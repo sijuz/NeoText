@@ -1,0 +1,114 @@
+.Persik {
+  display: block;
+  width: 30%;
+  max-width: 240px;
+  margin: 20px auto;
+}
+
+.vkAppHeader {
+  position: fixed;
+  top: 10px;
+  right: 6px;
+  width: 88px;
+  height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  background-color: rgba(40,43,46,.2);
+  z-index: 5;
+}
+
+.r .vk__page, .r input, .r textarea, .r select, .r button, .r .button, .r .small_button {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,'Segoe UI','Segoe WP','Helvetica Neue','Lucida Grande',Verdana,Tahoma,Arial,sans-serif!important;
+}
+.r .vk__page, .r input, .r textarea, .r select, .r button, .r .button, .r .small_button {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,'Segoe UI','Segoe WP','Helvetica Neue','Lucida Grande',Verdana,Tahoma,Arial,sans-serif!important;
+}
+.r .vk__page, .r input, .r textarea, .r select, .r button, .r .button, .r .small_button {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,'Segoe UI','Segoe WP','Helvetica Neue','Lucida Grande',Verdana,Tahoma,Arial,sans-serif!important;
+}
+.r .vk__page, .r input, .r textarea, .r select, .r button, .r .button, .r .small_button {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,'Segoe UI','Segoe WP','Helvetica Neue','Lucida Grande',Verdana,Tahoma,Arial,sans-serif!important;
+}
+.vkAppHeader__menu {
+  background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m24%200h-24v24h24z%22%20opacity%3D%22.1%22%2F%3E%3Cpath%20d%3D%22m18%2010c1.1%200%202%20.9%202%202s-.9%202-2%202-2-.9-2-2%20.9-2%202-2zm-6%204c-1.1%200-2-.9-2-2s.9-2%202-2%202%20.9%202%202-.9%202-2%202zm-6%200c-1.1%200-2-.9-2-2s.9-2%202-2%202%20.9%202%202-.9%202-2%202z%22%20fill%3D%22%23fff%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E) center center no-repeat;
+}
+.vkAppHeader__menu, .vkAppHeader__back {
+  width: 50%;
+  font-size: 0;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.vkAppHeader__back {
+  /*background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20width%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m0%200h24v24h-24z%22%20opacity%3D%22.1%22%2F%3E%3Cpath%20d%3D%22m18.3%205.7c-.3865993-.38659932-1.0134007-.38659932-1.4%200l-4.9%204.9-4.9-4.9c-.38659932-.38659932-1.01340068-.38659932-1.4%200s-.38659932%201.01340068%200%201.4l4.9%204.9-4.9%204.9c-.38659932.3865993-.38659932%201.0134007%200%201.4s1.01340068.3865993%201.4%200l4.9-4.9%204.9%204.9c.3865993.3865993%201.0134007.3865993%201.4%200s.3865993-1.0134007%200-1.4l-4.9-4.9%204.9-4.9c.3865993-.38659932.3865993-1.01340068%200-1.4z%22%20fill%3D%22%23fff%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E) center center no-repeat;*/
+  background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2024%2024%22%20id=%22replay_24%22%3E%3Cg%20fill=%22none%22%20fill-rule=%22evenodd%22%3E%3Cpath%20d=%22M0%200h24v24H0z%22/%3E%3Cpath%20xmlns=%22http://www.w3.org/2000/svg%22%20d=%22M12%205a8%208%200%2011-8%208%201%201%200%20012%200%206%206%200%20106-6v3.096a.4.4%200%2001-.67.296L7.044%206.493a.667.667%200%20010-.986l4.288-3.899a.4.4%200%2001.669.296V5z%22%20fill=%22white%22/%3E%3C/g%3E%3C/svg%3E) center center no-repeat;
+  color: #fff!important;
+  width: 24px!important;
+  margin-left: 5px;
+}
+.vkAppHeader__menu, .vkAppHeader__back {
+  width: 50%;
+  font-size: 0;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+
+
+.fff-b {
+  width: 90px;
+  height: 120px;
+  margin-right: 16px;
+  background: var(--content_tint_background);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 24px 0 rgba(0,0,0,.08), 0 0 2px 0 rgba(0,0,0,.08);
+}
+
+.Cell {
+  overflow: hidden!important;
+}
+.Cell__in {
+  border-radius: 8px!important;
+
+}
+
+.Cell__in .Tappable--shadowHovered {
+  border-radius: 8px!important;
+}
+
+
+/*.SplitLayout__inner {*/
+/*  height: auto!important;*/
+/*  min-height: 100% !important;*/
+/*}*/
+
+.PanelHeader--ios .PanelHeader__left {
+  flex-grow: 0;
+}
+
+.Progress {
+  height: 10px;
+  border-radius: 10px;
+}
